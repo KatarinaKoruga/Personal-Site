@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="podaci.js"></script>
+	<title> Katarina Koruga | Kontakt </title>
+
+	<link rel="stylesheet" type="text/css" href="stil.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="sadrzaj">
+		<div class="col-12 ime"><a href="naslovna.html"> Katarina Koruga </a> </div>
+		
+	<div id="meni"> 
+	<nav class="naslovna-nav">
+		<ul id="ul">
+			<li class="li"><a href="naslovna.html" class="link">NASLOVNA</a></li>
+			<li class="li"><a href="biografija.html" class="link">BIOGRAFIJA</a></li>
+			<li class="li"><a href="galerija.html" class="link">GALERIJA</a></li>
+			<li class="li"><a href="radovi.html" class="link">MOJI RADOVI</a></li>
+			<li class="li"><a href="kontakt.html" class="link">KONTAKT</a></li>
+			</ul>
+		</nav>
+	</div> <!-- navigacija -->
+
+	<!--Kontakt --> 
+	<div id="kontaktstrana">
+		<p style=" font-family: 'Qwigley', cursive; font-size: 40px; text-align: center;"> Kontaktirajte me!</p>
+
+		<div id="podaci">
+		<form method="post" id="forma" name="podaci">
+	<label for="ime">Ime: <br>
+		<input type="text" name="ime" id="ime" placeholder="Unesite Vaše ime" maxlength="12" required></label><br>
+		<p class="greska" id="poruka"></p>
+	<label for="prezime">Prezime: <br>
+		<input type="text" name="prezime" id="prezime" placeholder="Unesite Vaše prezime" maxlength="12" required></label><br>
+		<p class="greska" id="poruka1"></p>
+	<label for="email">E-mail: <br>
+		<input type="email" name="email" id="email" placeholder="marko.markovic@gmail.com"></label><br>
+		<p class="greska" id="poruka2"></p>
+	<label for="lozinka"> Lozinka: <br>
+		<input type="password" name="lozinka" id="lozinka"  placeholder="Unesite lozinku" required></label><br>
+	<label for="potvrdalozinka"> Potvrda lozinke: <br>
+		<input type="password" name="potvrdalozinka" id="potvrdalozinka"  placeholder="Potvrdite Vašu lozinku" required></label><br>
+	</form>
+	<button type="submit" form="forma" value="Submit" id="posalji" onclick="provjera()"><img src="https://i.cloudup.com/gBzAn-oW_S-2000x2000.png" width="50px" height="50px"></button> 
+	</div> <!-- podaci kraj-->
+	</div>
+
+
+	<!-- navigacija dno --> 
+	<div class="col-12 dno">
+	<p>  
+	<a href="https://www.facebook.com/katarina.koruga.3" target="_blank"><i class="fab fa-facebook"></i></a>
+	<a href="https://www.instagram.com/koruga_k/" target="_blank"><i class="fab fa-instagram"></i></a>
+	<a href="mailto:koruga.katarina@gmail.com" target="_blank"><i class="fab fa-google"></i></a>
+	</p>
+	<p style="font-family: 'Qwigley', cursive; font-size: 20px;">
+<strong> Katarina Koruga  | koruga.katarina@gmail.com | +38766074118 | Kozarska Dubica </strong>
+	</p> </div>
+</div> <!-- kraj sadrzaja -->
+
+</body>
+</html>
